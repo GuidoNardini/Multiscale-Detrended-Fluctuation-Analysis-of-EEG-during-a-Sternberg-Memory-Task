@@ -3,7 +3,7 @@ clear
 clc
 close all
 
-main_folder ='/OneDrive/Elaborato Neuroscienze/dataset1/ds004796-download';
+main_folder ='';
 subjects = dir(fullfile(main_folder, 'sub-*'));
 H_all_subjects = struct(); %Crea la struttura per i valori di H
 %% Caricamento dati
